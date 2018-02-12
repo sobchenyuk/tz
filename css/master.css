@@ -1,0 +1,323 @@
+#toTopHover {
+    background: url(/img/toTop.png) no-repeat left -71px;
+    opacity: 0;
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 71px;
+    height: 71px;
+    -moz-opacity: 0;
+}
+
+#toTop {
+    background: url(/img/toTop.png) no-repeat left top;
+    text-decoration: none;
+    text-indent: 100%;
+    position: fixed;
+    right: 10px;
+    bottom: 10%;
+    display: none;
+    overflow: hidden;
+    width: 71px;
+    height: 71px;
+    border: none;
+    z-index: 100000;
+}
+
+.container {
+    width: 1000px !important;
+}
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 1em !important;
+}
+.ui-datepicker .ui-datepicker-title select {
+    display: inline-block;
+    padding: 0;
+    height: auto;
+}
+.valid.false input, .valid.false textarea{
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 red !important;
+}
+.ui-widget.ui-widget-content {
+    z-index: 1006 !important;
+}
+.hidden {
+    display: none !important;
+}
+.link {
+    text-decoration: underline;
+    color: white;
+}
+.row {
+    margin-bottom: 0;
+}
+.checkbox-field {
+    padding: 0 .75rem;
+}
+.input-field {
+    margin-top: 0;
+}
+.wrapper-top {
+    padding-top: 1em;
+    -webkit-box-shadow: 0 5px 2px -3px #cdcdd0;
+    box-shadow: 0 5px 2px -3px #cdcdd0;
+    background-color: #f8f9fa!important;
+}
+.fast-add__box {
+    z-index: 1005;
+    position: relative;
+}
+.wrapper-top h1 {
+    margin-top: 0;
+}
+
+.fast-add {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-top__form {
+    display: flex;
+}
+.top-form__field {
+    margin-top: -10px;
+}
+.fast-add__box {
+    position: relative;
+}
+.__modal {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #fafafa;
+    padding: 0;
+    width: 55%;
+    margin: auto;
+    overflow-y: auto;
+    border-radius: 2px;
+    will-change: top, opacity;
+    -webkit-box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.3);
+    box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.3);
+}
+.fast-add__box .__modal {
+    position: absolute;
+    top: 50px;
+    margin-left: .75rem;
+    width: 400px;
+}
+.additional-field .chips .input {
+    width: 100% !important;
+}
+.wrapper-top .__modal form {
+    padding: 24px;
+}
+.wrapper-control {
+    padding: 1.5em 0;
+}
+
+.wrapper-control .btn {
+    padding: 3px 8px;
+    line-height: 1.2;
+    border-radius: 0.2rem !important;
+}
+
+.wrapper-control .select-dropdown {
+    border: 0 !important;
+    line-height: 1.2 !important;
+}
+
+#control-select select {
+    padding: 3px 8px;
+    width: 110px;
+    height: 38px;
+}
+.select-wrapper span.caret {
+    padding-right: 3px;
+}
+
+#control-select .input-field>select {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#control-select .input-field {
+    width: 110px;
+}
+
+.wrapper-control .row .col {
+    padding: inherit;
+    width: auto;
+
+}
+.wrapper-control .row .col.s1, .wrapper-control .row .col.s2 {
+    margin: 0 0.5rem !important;
+}
+.wrapper-control .row .wrapper-s-w {
+    padding: 0 .75rem;
+}
+#calendar {
+    padding-bottom: 3em;
+}
+#grid {
+    z-index: 1003;
+    position: relative;
+}
+.grid__list {
+    border-left: 1px solid rgba(128,128,128,0.38);
+    border-top: 1px solid rgba(128,128,128,0.38);
+}
+.grid__list--item {
+    display: table;
+    border-bottom: 1px solid rgba(128,128,128,0.38);
+}
+.grid__list--text {
+    border-right: 1px solid rgba(128,128,128,0.38);
+    width: 143px;
+    height: 142px;
+    padding-left: 0.5rem;
+    color: #808080;
+    vertical-align: top;
+    position: relative;
+    display: table-cell;
+}
+.full-date__text.now {
+    color: #212121;
+}
+.full-date__day {
+    display: block;
+}
+
+.grid__list--text.now-day {
+    background-color: #f5f5f5;
+}
+.now-day .full-date__text {
+    color: #fff;
+    background-color: #4285f4;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+.full-date__text {
+    display: block;
+    margin-top: 4px;
+}
+.full-date__day,
+.full-date__text {
+    position: relative;
+}
+#calendar {
+    position: relative;
+}
+#dialog {
+    display: none;
+    font-weight: 400;
+    z-index: 1006;
+    width: 400px;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0 0 10px 5px #ddd;
+    box-shadow: 0 0 10px 5px #ddd;
+    background-color: #fff;
+}
+#dialog form {
+    padding: 24px;
+}
+
+#search, #control-date {
+    z-index: 1004;
+    position: relative;
+}
+
+.close__btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    transition: 0.5s;
+}
+.close:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.close:hover {
+    transform: rotate(45deg);
+}
+.insertEvent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    padding: 0.5em;
+    z-index: 10;
+}
+
+.insertEvent i {
+    background-color: #db4437;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.2);
+    height: 17px;
+    overflow: hidden;
+    width: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.insertEvent:hover i {
+    opacity: 0.8;
+}
+
+.insertDate {
+    position: relative;
+    padding: 0 4px;
+    height: 18px;
+    line-height: 16px;
+    background-color: rgb(121, 134, 203);
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    width: 135px;
+}
+.event-container {
+    max-height: 75px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+    margin-left: -5px;
+    padding: 2px;
+    margin-top: 15px;
+    width: 135px;
+    position: absolute;
+    top: 31px;
+}
+
+.edit-form h5, .edit-btn, .edit-form__title, .edit-form .create-btn, .delete-btn {
+    display: none;
+}
+.edit-form .edit-form__title, .edit-form .edit-btn, .edit-form .delete-btn{
+    display: block;
+}
+.edit-form  .modal-footer {
+    display: flex;
+    justify-content: space-between;
+}
